@@ -1,0 +1,19 @@
+:root {
+    --bg-body: black;
+    --bg-contact: gray;
+    --accent: pink;
+    --text: white;
+    --invalid: red;
+}
+
+html {
+    box-sizing: border-box;
+    font-size: 100%;
+}
+
+body {
+    margin: 0;
+    font-family: 'Avenir', sans-serif;
+    color: var(--text);
+    background-color: var(--bg-body);
+}
