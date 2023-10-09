@@ -17,3 +17,24 @@ body {
     color: var(--text);
     background-color: var(--bg-body);
 }
+
+h1 {
+    display: inline-block;
+    line-height: 40px;
+    margin: 20px;
+}
+
+.container {
+    float: right;
+    display: flex; 
+    justify-content: flex-end;
+    list-style-type: none;
+    margin: 20px;
+    padding: 10px;
+   
+}
+
+.container li {
+    padding: 0 0 0 5rem;
+}
+
