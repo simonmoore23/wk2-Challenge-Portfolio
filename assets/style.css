@@ -18,6 +18,8 @@ body {
     font-family: 'Avenir', sans-serif;
     color: var(--text);
     background-color: var(--bg-body);
+    line-height: 1.5;
+    font-size: 18px;
 }
 
 .wrapper {
@@ -44,6 +46,7 @@ h1 {
 
 .container li {
     padding: 0 0 0 5rem;
+    color: #fff;
 }
 
 .hero {
@@ -78,11 +81,33 @@ h1 {
 #hor {
     max-width: 100%;
     margin: 
-
 }
 
 .future {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-evenly;
+}
 
+#contact {
+    margin: 20px;
+}
+
+.aside {
+    float: right;
+    display: flex; 
+    justify-content: flex-end;
+    list-style-type: none;
+    margin: 190px;
+    margin-top: -65px;
+    margin-bottom: -20px;
+    padding: 10px;
+}
+
+.aside li {
+    padding: 0 0 0 5rem;
+    color: #fff;
+}
+
+.footer {
+    text-align: center;
 }
